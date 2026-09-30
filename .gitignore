@@ -1,0 +1,7 @@
+book/_build/
+book/parts/**/bin/*.gif
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
