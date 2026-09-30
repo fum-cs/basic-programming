@@ -1,5 +1,10 @@
+book/_build/
+book/parts/**/bin/*.gif
 notebooks/_build
-__pycache__
-.ipynb_checkpoints
 _build/
+.venv/
 .freebuff/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
