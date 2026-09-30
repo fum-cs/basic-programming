@@ -1,27 +1,44 @@
 version: 1
-
 project:
-  title: Fundamentals of Programming (C)
-  description: >-
-    Course materials for the B.Sc. Fundamentals of Programming course (C
-    language), Computer Science Dept., Ferdowsi University of Mashhad.
-  authors:
-    - name: Mahmood Amintoosi
-  copyright: "2026. CC0 Licensed - Computer Science Dept., Ferdowsi University of Mashhad"
-  exports:
-    - format: html
-  # - format: pdf   # PDF via Typst — uncomment after the HTML build is verified
+  title: "مبانی کامپیوتر و برنامه‌سازی"
+  github: https://github.com/fum-cs/basic-programming
+  affiliations:
+    - id: fum
+      institution: دانشگاه فردوسی مشهد
+      department: گروه علوم کامپیوتر
+      country: ایران
   toc:
-    - file: lectures/index.md
-    - title: Functions and Recursion
+    - file: book/index.md    
+    - title: بخش اول | مبانی و مقدمات
       children:
-        - file: lectures/10-functions/functions_recursion.ipynb
-
+        - file: book/parts/p01-basics/part-one.md
+    - title: بخش دوم | داده‌ها و عملگرها
+      children:
+        - file: book/parts/p02-data-operators/part-two.md
+    - title: بخش سوم | کنترل جریان
+      children:
+        - file: book/parts/p03-control-flow/part-three.md
+    - title: بخش چهارم | توابع
+      children:
+        - file: book/parts/p04-functions/part-four.md
+    - title: بخش پنجم | ساختارهای داده پایه
+      children:
+        - file: book/parts/p05-basic-data-structures/part-five.ipynb
+    - title: بخش ششم | اشاره‌گرها و حافظه
+      children:
+        - file: book/parts/p06-pointers-memory/part-six.md
+    - title: بخش هفتم | داده‌های ترکیبی و فایل
+      children:
+        - file: book/parts/p07-structs-files/part-seven.md
+    - title: بخش هشتم | مباحث تکمیلی
+      children:
+        - file: book/parts/p08-misc/part-eight.md
 site:
   template: book-theme
-  github: https://github.com/fum-cs/basic-programming
+  title: "مبانی کامپیوتر و برنامه‌سازی"
   options:
-    logo: lectures/img/fum-cs-logo.png
-    favicon: lectures/img/fum-logo.ico
-
-# Multiple maintainers (instructor + TAs): content rules live in CONTRIBUTING.md.
+    logo: book/images/Ferdowsi-University-of-Mashhad-Logo.svg
+    logo_text: "دانشگاه فردوسی مشهد"
+    style: book/style.css
+  parts:
+    primary_sidebar_footer: book/sidebar-footer.md
