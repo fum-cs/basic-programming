@@ -1,6 +1,9 @@
 book/_build/
 book/parts/**/bin/*.gif
+notebooks/_build
+_build/
 .venv/
+.freebuff/
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
