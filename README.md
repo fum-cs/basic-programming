@@ -3,7 +3,7 @@
 Course book and materials for **Computer Fundamentals and Programming**
 (B.Sc., first year), [Computer Science Dept., Ferdowsi University of Mashhad](https://fum-cs.github.io/).
 
-- **Online book:** <https://fum-cs.github.io/basic-programming/>
+- **Online book:** <https://fum-cs.github.io/fundamentals-of-programming/>
 - **Official syllabus:** [fum-cs.github.io/docs/curriculum/base/Computer-Fundamentals-and-Programming](https://fum-cs.github.io/docs/curriculum/base/Computer-Fundamentals-and-Programming)
 - **Instructor:** Mahmood Amintoosi
 

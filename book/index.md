@@ -91,7 +91,7 @@
 
 اگر در متن درس خطا یا نکته‌ای برای بهبود یافتید، خوشحال می‌شویم از طریق مخزن گیت‌هاب پروژه آن را با ما در میان بگذارید:
 
-🔗 [https://github.com/fum-cs/basic-programming](https://github.com/fum-cs/basic-programming)
+🔗 [https://github.com/fum-cs/fundamentals-of-programming](https://github.com/fum-cs/fundamentals-of-programming)
 
 ---
 

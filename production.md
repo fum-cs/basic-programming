@@ -41,7 +41,7 @@ The site is written to `_build/html/`.
 
 Pushes to `main` are built and deployed by GitHub Actions — see
 `.github/workflows/deploy.yml` (it installs `jupyter-book` via npm, runs
-`jupyter-book build --html` with `BASE_URL=/basic-programming`, and publishes
+`jupyter-book build --html` with `BASE_URL=/fundamentals-of-programming`, and publishes
 to Pages). Nothing to do by hand; watch progress under the repo's **Actions**
 tab. The Pages *Source* setting must stay **GitHub Actions**.
 
@@ -90,11 +90,11 @@ pkill -f "myst"
 
 ### Manual fallback for GitHub Pages
 
-For a project site (https://fum-cs.github.io/basic-programming/), rebuild with
+For a project site (https://fum-cs.github.io/fundamentals-of-programming/), rebuild with
 the correct base URL first, then push `_build/html`:
 
 ```
-BASE_URL=/basic-programming/ env -u PORT jupyter book build --html
+BASE_URL=/fundamentals-of-programming/ env -u PORT jupyter book build --html
 pip install ghp-import
 ghp-import -n -p -f ./_build/html
 ```

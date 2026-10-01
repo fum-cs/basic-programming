@@ -1,7 +1,7 @@
 version: 1
 project:
   title: "مبانی کامپیوتر و برنامه‌سازی"
-  github: https://github.com/fum-cs/basic-programming
+  github: https://github.com/fum-cs/fundamentals-of-programming
   affiliations:
     - id: fum
       institution: دانشگاه فردوسی مشهد
